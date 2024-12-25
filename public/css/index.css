@@ -439,9 +439,8 @@ h4 {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1450px) {
     .carousel {
-        /* aspect-ratio: 10/4; */
         height: 70vh;
         overflow: hidden;
         object-fit: cover;

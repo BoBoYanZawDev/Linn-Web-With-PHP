@@ -2,7 +2,8 @@
     <link rel="stylesheet" href="/public/css/footer.css" />
     <footer>
       <div class="container-fluid bg-dark text-white p-4 pt-5">
-        <div class="row pageMargin">
+        <div class="container">
+        <div class="row">
           <!-- first Coloum -->
           <div class="contentColoum col-lg-4 col-sm-12">
             <h6>HEAD OFFICE</h6>
@@ -104,11 +105,13 @@
               <p>Pa.(231), Myoma Market, Naypyitaw</p>
             </div>
         </div>
+        </div>
+        
         <!-- coloum End -->
         <hr />
         <div class="contentColoum col-12 d-flex justify-content-center">
           <a href="./index.html">
-            Copyright &copy;2022 Linn IT Solution Co.,Ltd . All Rights Reserved.
+            Copyright &copy;<?= date('Y') ?> Linn IT Solution Co.,Ltd . All Rights Reserved.
           </a>
         </div>
       </div>

@@ -1,12 +1,12 @@
 @font-face {
-    font-family: linn-light;
-    src: url(../fonts/LINN-CARACAS-LIGHT.OTF);
+    font-family: 'linn-light';
+    src: url(./LINN-CARACAS-LIGHT.OTF)format('truetype');
 }
 @font-face {
-    font-family: linn-regular;
-    src: url(../fonts/LINN-CARACAS.OTF);
+    font-family: 'linn-regular';
+    src: url(./LINN-CARACAS.OTF)format('truetype');
 }
 @font-face {
-    font-family: linn-medium;
-    src: url(../fonts/Linn-Caracas-Medium.otf);
+    font-family: 'linn-medium';
+    src: url(./Linn-Caracas-Medium.otf)format('truetype');
 }

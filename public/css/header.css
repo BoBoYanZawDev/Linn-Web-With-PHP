@@ -1,11 +1,19 @@
-:root{
-    --box-border: #3b82f6; 
+@import url('../fonts/font.css');
+@import url('./color.css');
+*,body{
+    font-family: 'linn-regular';
 }
-/* body{
-    font-family: Linn;
-} */
-.container{
-    overflow: hidden;
+.headerInfo a{
+    text-decoration: none;
+}
+.headerInfo .address a ,.headerInfo .address i{
+    font-size: 14px;
+    color: #b6b6b6;
+}
+.headerInfo .box_hover:hover {
+    a,i{
+        color: var(--box-border);
+    }
 }
 header a{
     text-decoration: none;

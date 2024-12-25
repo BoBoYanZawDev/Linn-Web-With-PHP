@@ -1,6 +1,6 @@
 <head>
   <title>Training</title>
-  <link rel="icon" type="image/x-icon" href="./asset/linn logo (final).png" sizes="16x16" />
+  <link rel="icon" type="image/x-icon" href="/public/asset/linn logo (final).png" sizes="16x16" />
   <link rel="stylesheet" href="../public/css/ReponsiveContentLayout.css">
   <link rel="stylesheet" href="../public/css/servicechild.css">
   <!-- Custom Css -->
@@ -29,7 +29,7 @@
     </section>
     <!-- content -->
     <section class="section">
-      <div class="container-fluid px-4 py-2">
+      <div class="container px-4 py-2">
         <div class="row d-flex align-items-center justify-content-center pageMargin py-5">
           <div class="ServiceContent col-12 sm-p-2">
             <p>We have training center and offers technical training designed to assist today’s corporations and government agencies keep pace with technological changes, as well as custom training solutions for your company’s unique software requirements. Linn Computer Training Center prepares businesses and government to use the latest technology effectively to enhance their productivity.</p>
