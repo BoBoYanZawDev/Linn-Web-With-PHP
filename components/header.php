@@ -18,18 +18,18 @@
   <div class="headerInfo container-fluid border-bottom d-none d-lg-block">
     <div class="container d-flex justify-content-between align-item-center">
       <div class="address d-flex fs-6 align-item-center ">
-        <div class="border-start border-end px-3 py-2 box_hover "> <i class="fa-solid fa-envelope me-2"></i><a  href="mailto:info@linncomputer.com">info@linncomputer.com</a></div>
-        <div class="px-3 py-2 box_hover"> <i class="fa-solid fa-phone me-2 "></i><a  href="tel:09788788788">09 788 788 788</a></div>
+        <div class="border-start border-end px-3 py-2 box_hover "> <i class="fa-solid fa-envelope me-2"></i><a href="mailto:info@linncomputer.com">info@linncomputer.com</a></div>
+        <div class="px-3 py-2 box_hover"> <i class="fa-solid fa-phone me-2 "></i><a href="tel:09788788788">09 788 788 788</a></div>
         <div class="border-start border-end px-3 py-2 box_hover"><i class="fa-solid fa-map-location-dot me-2"></i><a href="/">No.14/585, 4th Street,Paung Laung Quarter, Pyinmana.</a></div>
       </div>
       <div class="socialLink d-flex align-item-center">
         <div class="border-start px-3 py-2"><a class="text-center" href=""><i class="fa-brands fa-facebook-f"></i></a></div>
-        <div class="border-start border-end  px-3 py-2"><a  class="text-center" href="https://shop.linncomputer.com"><i class="fa-solid fa-cart-shopping"></i></a></div>
+        <div class="border-start border-end  px-3 py-2"><a class="text-center" href="https://shop.linncomputer.com"><i class="fa-solid fa-cart-shopping"></i></a></div>
       </div>
     </div>
   </div>
   <header class="bg-light shadow-sm sticky-top" id="header">
-    <div class="container overflow-hidden">
+    <div class="container">
       <div class="row">
         <div class="col-12">
           <nav class="navbar navbar-expand-lg">
@@ -74,17 +74,14 @@
                 <li class="nav-item">
                   <a class="nav-link link" href="/contact.php">CONTACT</a>
                 </li>
-                <li class="nav-item">
-                  <div
-                    class="search nav-link mx-2"
-                    id="searchToggle">
-                    <!-- Don't Add Style Attribute in Input(searchBox) Tag! -->
-                    <input
-                      type="text"
-                      class="searchBox"
-                      placeholder="Search..." />
-                    <span class="icon" id="searchBtn"></span>
-                  </div>
+                <li class="nav-item dropdown ">
+                  <a id="language-toggle" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img class="me-1" height="18" width="auto" src="../public/asset/icon/united-states.png" alt="lang"> EN
+                  </a>
+                  <ul class="dropdown-menu ">
+                    <li><a class="dropdown-item position-relative d-flex align-items-center align-middle" href="/" data-lang="EN"><img class="me-1 " height="18" width="auto" src="../public/asset/icon/united-states.png" alt="lang">EN</a></li>
+                    <li><a class="dropdown-item position-relative d-flex align-items-center align-middle" href="/my" data-lang="MY"><img class="me-1 " height="18" width="auto" src="./public/asset/icon/myanmar.png" alt="lang">MY</a></li>
+                  </ul>
                 </li>
               </ul>
             </div>

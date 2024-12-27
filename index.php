@@ -1,7 +1,7 @@
 <?php
-function ani()
+function ani($startdate)
 {
-  $startDate = new DateTime('2005-5-5');
+  $startDate = new DateTime($startdate);
   $currentDate = new DateTime();
   $interval = $startDate->diff($currentDate);
   $years = $interval->y;
@@ -107,7 +107,7 @@ function ani()
         <div class="container">
           <div class="row AboutLinn  d-flex align-items-start justify-content-center  g-lg-5">
             <div class="LinnContent col-md-4 col-12 lg-p-5 sm-p-2">
-              <h2><?= ani() ?> Years of Experience in IT Sale & Service and Training Centre</h2>
+              <h2><?= ani('2005-5-5') ?> Years of Experience in IT Sale & Service and Training Centre</h2>
               <p>Linn IT Solution Co.,Ltd was established in 5 May 2005 at Bogyoke Street, Pyinmana as Linn IT Solution
                 Center and we have being serviced concern IT System for Ministries and Private Companies</p>
               <div class="buttonContainer">
