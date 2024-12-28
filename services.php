@@ -14,7 +14,7 @@
             <div class="row">
               <div class="headerImgContainer">
                 <div class="headerContent flex-nowrap col-lg-8 col-sm-12 p-4">
-                  <h1 class="pageTitle">Services</h1>
+                  <h1 class="pageTitle fs-3">Services</h1>
                   <div class="linkcontainer">
                     <a href="/" class="home"><span>Home</span></a>
                   </div>
@@ -95,7 +95,7 @@
             class="container-fluid p-3 py-5 d-flex align-items-start justify-content-center cardContainer">
             <div class="container">
               <div class="p-3">
-                <h2>The products we offer..</h2>
+                <h2 class="fs-4">The products we offer..</h2>
                 <div class="cardGroup row">
 
                   <div class="cardContainer col-lg-4 col-md-6 col-sm-12">

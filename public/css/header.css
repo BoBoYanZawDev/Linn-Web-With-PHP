@@ -29,17 +29,15 @@ body {
     margin-left: 30px;
 }
 
-
 .link:hover{
     color: var(--box-border);
 }
 .nav-link.active{
     color: var(--box-border) !important;
 }
-.search{
+/* .search{
     border: 1px solid var(--box-border);
     border-radius: 20px;
-    /* background-color: #ffffff ; */
     background-color: var(--box-border) ;
     width: 52px;
     height: 32px;
@@ -68,9 +66,9 @@ body {
 }
 .search:hover , .toggleicon:hover{
     cursor:pointer;
-}
+} */
 /* javascript Toggle Search Box */
-.searchFullbar{
+/* .searchFullbar{
     border: 1px solid var(--box-border);
     width: 15rem;
     height: 2rem;
@@ -91,7 +89,7 @@ body {
     position: absolute;
     transform: translatex(12rem);
     transition: all 0.3s linear;
-}
+} */
 /* Toggle Search Box End */
 
 /* Reponsive Humbager Toggle Button */
@@ -169,8 +167,8 @@ body {
         align-items: center;
     }
  }
-@media (max-width: 991px) { 
+/* @media (max-width: 991px) { 
     .toggleicon{
         translate: auto 13rem;
     }
- }
+ } */

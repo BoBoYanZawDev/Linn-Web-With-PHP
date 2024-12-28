@@ -20,7 +20,7 @@ function ani($startdate)
   <link rel="stylesheet" href="/public/css/index.css" />
   <link rel="stylesheet" href="/public/css/formValidation.css">
   <link rel="stylesheet" href="/public/css/company_partner/owl.carousel.min.css">
-  <link rel="stylesheet" href="/public/css/company_partner/PartnerSlide.css">
+  <link rel="stylesheet" href="/public/css/company_partner/partnerslide.css">
 </head>
 
 <body>
@@ -107,8 +107,8 @@ function ani($startdate)
         <div class="container">
           <div class="row AboutLinn  d-flex align-items-start justify-content-center  g-lg-5">
             <div class="LinnContent col-md-4 col-12 lg-p-5 sm-p-2">
-              <h2><?= ani('2005-5-5') ?> Years of Experience in IT Sale & Service and Training Centre</h2>
-              <p>Linn IT Solution Co.,Ltd was established in 5 May 2005 at Bogyoke Street, Pyinmana as Linn IT Solution
+              <h2 class="fs-4 pb-2"><?= ani('2005-5-5') ?> Years of Experience in IT Sale & Service and Training Centre</h2>
+              <p class="fs-6">Linn IT Solution Co.,Ltd was established in 5 May 2005 at Bogyoke Street, Pyinmana as Linn IT Solution
                 Center and we have being serviced concern IT System for Ministries and Private Companies</p>
               <div class="buttonContainer">
                 <a href="https://shop.linncomputer.com"><button class="ShopBtn">View Services</button></a>
@@ -121,7 +121,7 @@ function ani($startdate)
                     <div class="icon px-lg-4 px-2 py-md-0 py-3 text-center"><i
                         class="fa-solid fa-mobile-screen-button"></i></div>
                     <div class="cardContent  text-md-start text-center">
-                      <h5 class="card-title"><a href="./mobileService.html">Mobile Service</a></h5>
+                      <h5 class="card-title fs-6"><a href="./mobileService.html">Mobile Service</a></h5>
                       <p class="card-text">Looking for mobile phone repairs Service shop. So you are the right place. We
                         provide Latest & old mobile phone repair service at Linn</p>
                     </div>
@@ -131,7 +131,7 @@ function ani($startdate)
                   <div class="card h-100 HoverCard flex-md-row flex-column">
                     <div class="icon px-lg-4 px-2 py-md-0 py-3 text-center"><i class="fa-solid fa-video"></i></div>
                     <div class="cardContent text-md-start text-center">
-                      <h5 class="card-title"><a href="./CCTV.html">CCTV & Smart Home Service</a></h5>
+                      <h5 class="card-title fs-6"><a href="./CCTV.html">CCTV & Smart Home Service</a></h5>
                       <p class="card-text">Our professional staff and technicians are experienced in providing CCTV
                         security services</p>
                     </div>
@@ -141,7 +141,7 @@ function ani($startdate)
                   <div class="card h-100 HoverCard flex-md-row flex-column">
                     <div class="icon px-lg-4 px-2 py-md-0 py-3 text-center"><i class="fa-solid fa-print"></i></div>
                     <div class="cardContent text-md-start text-center">
-                      <h5 class="card-title"><a href="./computerService.html">Computer & Printer Service</a></h5>
+                      <h5 class="card-title fs-6"><a href="./computerService.html">Computer & Printer Service</a></h5>
                       <p class="card-text">We can repair and service PC desktops, Laptops and Mac computers and also
                         Printers</p>
                     </div>
@@ -151,7 +151,7 @@ function ani($startdate)
                   <div class="card h-100 HoverCard flex-md-row flex-column">
                     <div class="icon px-lg-4 px-2 py-md-0 py-3 text-center"><i class="fa-solid fa-laptop"></i></div>
                     <div class="cardContent text-md-start text-center">
-                      <h5 class="card-title"><a href="./Training.html">Computer Training Center</a></h5>
+                      <h5 class="card-title fs-6"><a href="./Training.html">Computer Training Center</a></h5>
                       <p class="card-text">We have training center and offers technical training designed to assist
                         corporations and government</p>
                     </div>
@@ -176,7 +176,7 @@ function ani($startdate)
             </div>
             <div class="ChoseUsContent col-md-6 col-12 mt-4 mt-md-0">
               <div class="contentTitle">
-                <h2>Why Choose Us</h2>
+                <h2 class="fs-4">Why Choose Us</h2>
               </div>
               <div class="contentlist">
                 <div class="listIcon"><i class="fa-solid fa-wallet"></i></div>
@@ -209,7 +209,7 @@ function ani($startdate)
             <div class="FormSide col-md-6 col-12 p-4">
               <h2>Need a Quick Enquiry</h2>
               <hr>
-              <form class="contect-form EnquiryForm">
+              <form class="contect-form EnquiryForm fs-6">
                 <div class="form-floating mb-3 textbox">
                   <input type="text" class="form-control" id="Name" placeholder="Name">
                   <label for="Name">Name</label>
@@ -278,7 +278,7 @@ function ani($startdate)
           <div class="row sliderMargin">
             <div class="sliderContainer col-12 pt-5 ">
               <div class="sliderTitle content-list">
-                <h2>Company Partners</h2>
+                <h2 class="fs-4">Company Partners</h2>
               </div>
               <div class="d-flex justify-content-center">
                 <div class="slider owl-carousel slider_carousel col-11 text-center">

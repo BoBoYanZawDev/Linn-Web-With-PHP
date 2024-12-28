@@ -16,7 +16,7 @@
             <div class="row">
               <div class="headerImgContainer">
                 <div class="headerContent flex-nowrap col-sm-12 p-4">
-                  <h1 class="pageTitle">About Us</h1>
+                  <h1 class="pageTitle fs-3">About Us</h1>
                   <div class="linkcontainer">
                     <a href="/" class="home"><span>Home</span></a>
                   </div>
@@ -77,7 +77,7 @@
             <div class="container">
               <div class="row d-flex align-items-center justify-content-center">
                 <div class="OurHistory col-sm-12 col-lg-12">
-                  <h2> Our History</h2>
+                  <h2 class="fs-4"> Our History</h2>
                   <hr>
                 </div>
                 <div class="LinnContent col-sm-12 col-lg-12 py-2">
@@ -128,7 +128,7 @@
                   <img src="/public/asset/other_img/2013_Southeast_Asian_Games_Logo.png" alt="2013 Sea Games Logo">
                 </div>
                 <div class="LinnContent col-lg-6 col-sm-12 lg-p-5 sm-p-2">
-                  <h2>Our Success Story</h2>
+                  <h2 class="fs-4">Our Success Story</h2>
                   <hr>
                   <p>And then, we have served the operation of iP Phone, Wireless Internet Access Point, IP Camera at 24th ASEAN SUMMIT AND RELATED SUMMITS was held in Myanmar International Convention Center on May 2014. On August 2014, we were installation and maintaining Wireless Internet Access , solution of Media user complain at 47th AMM/PMC/ 15th APT FMM/ 4th EAS FMM and 46th ASEAN ECONOMIC MINISTERS (AEM MEETING were held in Myanmar International Conversion Center).</p>
                   <p>In 2014, as another history record , we were installation and maintaining Wireless Internet Access , solution of Media user complain at 25th ASEAN SUMMIT AND RELATED SUMMITS.To implementation the E-Government System, network Infrastructure are installing at Ministries</p>

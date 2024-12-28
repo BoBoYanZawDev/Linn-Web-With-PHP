@@ -17,7 +17,7 @@
             <div class="row">
               <div class="headerImgContainer">
                 <div class="headerContent flex-nowrap col-lg-8 col-sm-12 p-4">
-                  <h1 class="pageTitle">Contact Us</h1>
+                  <h1 class="pageTitle fs-3">Contact Us</h1>
                   <div class="linkcontainer">
                     <a href="/"><span class="home">Home</span></a>
                   </div>
@@ -83,24 +83,39 @@
             class="container-fluid p-3 d-flex align-items-start justify-content-center cardContainer">
             <div class="container">
               <div class="row p-3">
-                <h2>Head Office</h2>
+                <h2 class="fs-4">Head Office</h2>
                 <div class="shadow d-md-flex WhiteCardContainer">
                   <div class="WhiteCard col-lg-4 col-md-4 col-12">
                     <i class="fa-solid fa-map-location-dot infoicon"></i>
-                    <h3>Address</h3>
+                    <h3 class="fs-4">Address</h3>
                     <p>No. 14/585, 4th Street, Paung Laung Quarter, Pyinmana.</p>
                   </div>
                   <div class="WhiteCard col-lg-4 col-md-4 col-12">
                     <i class="fa-solid fa-phone infoicon"></i>
-                    <h3>Call Us</h3>
+                    <h3 class="fs-4">Call Us</h3>
                     <p><a href="tel:09788788788">09 788 788 788</a></p>
                   </div>
                   <div class="WhiteCard col-lg-4 col-md-4 col-12">
                     <i class="fa-regular fa-envelope infoicon"></i>
-                    <h3>Mail Us</h3>
+                    <h3 class="fs-4">Mail Us</h3>
                     <p><a href="mailto:info@linncomputer.com">info@linncomputer.com</a></p>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+            <!-- Section 4 -->
+            <section class="section4 section">
+          <div class="px-md-4 container">
+            <div
+              class="container p-3 d-flex align-items-start justify-content-center">
+              <div class="ratio ratio-21x9">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d741.2590271104327!2d96.20344172407769!3d19.755025260459036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf04984d50590d3ff!2sLinn%20IT%20%26%20Mobile%20Mart!5e0!3m2!1sen!2smm!4v1623655308235!5m2!1sen!2smm"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"></iframe>
               </div>
             </div>
           </div>
@@ -111,7 +126,7 @@
             class="container-fluid p-3 pb-5 d-flex align-items-start justify-content-center cardContainer">
             <div class="container">
               <div class="row p-3">
-                <h2>Branches</h2>
+                <h2 class="fs-4">Branches</h2>
                 <div class="d-md-flex align-items-center justify-content-center BlueCardContainer">
                   <ul class="BlueCard col-lg-4 col-md-4 col-12">
                     <li>No.11/7, Bogyoke Road, Pyinmana</li>
@@ -129,21 +144,6 @@
                     <li><a href="mailto:info@linncomputer.com">info@linncomputer.com</a></li>
                   </ul>
                 </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- Section 4 -->
-        <section class="section4 section">
-          <div class="px-md-4">
-            <div
-              class="container p-3 d-flex align-items-start justify-content-center">
-              <div class="ratio ratio-21x9">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d741.2590271104327!2d96.20344172407769!3d19.755025260459036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf04984d50590d3ff!2sLinn%20IT%20%26%20Mobile%20Mart!5e0!3m2!1sen!2smm!4v1623655308235!5m2!1sen!2smm"
-                  style="border: 0"
-                  allowfullscreen=""
-                  loading="lazy"></iframe>
               </div>
             </div>
           </div>
