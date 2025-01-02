@@ -16,33 +16,47 @@ navLinks.forEach(navLink => {
       if (navLink.textContent.trim().toLowerCase() === 'services') {
          navLink.classList.add("active");
       }
-   }
+   } 
+   // else if (PageURL === '/my' && linkURL.pathname === '/') {
+   //       navLink.classList.add('active');
+   //    console.log('hit');
+
+   //    }
+   //    // For `/my/about` URL
+   //    else if (PageURL.startsWith('/my') && PageURL === linkURL.pathname) {
+   //       navLink.classList.add('active');
+   //    }
+   //    // Clear `active` class for non-matching links
+   //    else {
+   //       navLink.classList.remove('active');
+   //    console.log('NO Hit');
+
+   //    }
 });
 
 document.addEventListener('DOMContentLoaded', () => {
    const languageToggle = document.getElementById('language-toggle');
    const dropdownItems = document.querySelectorAll('.dropdown-item');
    const storedLang = sessionStorage.getItem('lang');
- 
+
    // Update language toggle if stored language exists
    if (storedLang) {
-     const selectedItem = [...dropdownItems].find(item => item.getAttribute('data-lang') === storedLang);
-     if (selectedItem) {
-       const selectedImg = selectedItem.querySelector('img').src;
-       languageToggle.innerHTML = `<img class="me-0" height="18" width="auto" src="${selectedImg}" alt="lang"> ${storedLang}`;
-     }
+      const selectedItem = [...dropdownItems].find(item => item.getAttribute('data-lang') === storedLang);
+      if (selectedItem) {
+         const selectedImg = selectedItem.querySelector('img').src;
+         languageToggle.innerHTML = `<img class="me-0" height="18" width="auto" src="${selectedImg}" alt="lang"> ${storedLang}`;
+      }
    }
- 
+
    dropdownItems.forEach(item => {
-     item.addEventListener('click', (event) => {
-       const selectedLang = item.getAttribute('data-lang');
-       const selectedImg = item.querySelector('img').src;
- 
-       // Update sessionStorage and reload
-       sessionStorage.setItem('lang', selectedLang);
-       sessionStorage.setItem('img', selectedImg);
-       window.location.reload();
-     });
+      item.addEventListener('click', (event) => {
+         const selectedLang = item.getAttribute('data-lang');
+         const selectedImg = item.querySelector('img').src;
+
+         // Update sessionStorage and reload
+         sessionStorage.setItem('lang', selectedLang);
+         sessionStorage.setItem('img', selectedImg);
+         window.location.reload();
+      });
    });
- });
- 
+});
