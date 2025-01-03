@@ -110,7 +110,7 @@
         <!-- coloum End -->
         <hr />
         <div class="contentColoum col-12 d-flex justify-content-center">
-          <a href="./index.html">
+          <a href="/">
             Copyright &copy;<?= date('Y') ?> Linn IT Solution Co.,Ltd . All Rights Reserved.
           </a>
         </div>
